@@ -52,11 +52,11 @@ document.addEventListener("DOMContentLoaded", () => {
         const outputLabel = document.querySelector("label[for='hasil-suhu']");
 
         if (isReversed) {
-            introText.textContent = "Masukkan suhu derajat Fahrenheit (°F) ke kotak dibawah...";
+            introText.textContent = "Masukkan suhu derajat Fahrenheit (°F) ke kotak dibawah";
             inputLabel.textContent = "Fahrenheit (°F):";
             outputLabel.textContent = "Celcius (°C):";
         } else {
-            introText.textContent = "Masukkan suhu derajat Celcius (°C) ke kotak dibawah...";
+            introText.textContent = "Masukkan suhu derajat Celcius (°C) ke kotak dibawah";
             inputLabel.textContent = "Celcius (°C):";
             outputLabel.textContent = "Fahrenheit (°F):";
         }
